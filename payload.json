@@ -1,8 +1,5 @@
 {
-    "type":"FeatureCollection",
-  "features":[
-    {"type":"Feature","properties":{"arbol_nombre":"Restaurante Alyzia","atr_gr_visible":"true","equip_b_nombre":"Alyzia"},"geometry":{"type":"Point","coordinates":[-75.55063364550722,10.42290702472887 ]}}
-   
-  
-  ]
+    "id":"0",
+    "nombre":"anderson esteban",
+    "apellidos":"lozada moreno"
   }

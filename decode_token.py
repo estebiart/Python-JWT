@@ -1,4 +1,8 @@
 import jwt
 import code_token
-key='my_super_secret'
-jwt.decode(code_token.token, key, algorithms="HS256")
+
+try:
+ jwt.decode(code_token.token, code_token.key, algorithms="HS256")
+except:
+  print("Firma incorrecta.")
+
